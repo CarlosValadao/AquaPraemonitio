@@ -91,3 +91,6 @@ O **AquaPraemonitio** coleta dados de sensores de nível de água e volume de ch
    ```bash
    git clone https://github.com/seuusuario/AquaPraemonitio.git
    cd AquaPraemonitio
+   mkdir build && cd build
+   cmake .. && ninja ..
+Mova o arquivo AquaPraemonitio.uf2 para o seu Raspberry Pi Pico W
